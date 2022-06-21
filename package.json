@@ -17,11 +17,13 @@
   },
   "homepage": "https://github.com/sunniboi77/myFlix-client#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "process": "^0.11.10"
   }
