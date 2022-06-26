@@ -4,6 +4,7 @@ import axios from "axios";
 import { LoginView } from "../login-view/login-view";
 import { MovieCard } from "../movie-card/movie-card";
 import { MovieView } from "../movie-view/movie-view";
+import { RegistrationView } from '../registration-view/registration-view';
 
 class MainView extends React.Component {
   constructor() {
@@ -43,6 +44,7 @@ class MainView extends React.Component {
     });
   }
 
+  //When a user successfully register
   onRegister(registered) {
     this.setState({
       registered,

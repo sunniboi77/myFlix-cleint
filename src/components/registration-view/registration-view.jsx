@@ -1,4 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { Form, Button } from "bootstrap";
+
+import "./registration-view.scss";
 
 //user registration form taking necessary user details
 export function RegistrationView(props) {
@@ -53,3 +57,7 @@ export function RegistrationView(props) {
     </form>
   );
 }
+
+RegistrationView.propTypes = {
+  onRegistration: PropTypes.func.isRequired,
+};
