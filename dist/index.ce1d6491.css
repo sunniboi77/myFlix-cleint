@@ -2,6 +2,23 @@
   color: #4682b4;
 }
 
+html {
+  background-color: #9acd32;
+  font-size: 1.3rem;
+}
+
+.app-container {
+  color: #deb992;
+  background-color: #051622;
+  margin: 25px;
+  padding: 15px;
+}
+
+.btn.btn-primary {
+  background-color: #1ba098;
+  margin: 19px;
+}
+
 
 
 /*# sourceMappingURL=index.ce1d6491.css.map */
